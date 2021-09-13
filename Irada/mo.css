@@ -323,7 +323,7 @@ h2 {
     }
 
     #info{
-      margin-left: 100px;
+      margin-left: 50px;
     }
 
     #Name{
@@ -381,13 +381,8 @@ h2 {
   width: 550px;
 }
 
-.info-text {
-  padding-left: 10px;
-  padding-right: 0px;
-}
-
 #video {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 }
