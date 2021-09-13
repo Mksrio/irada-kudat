@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 body {
     background-color: #f4a460;
         margin: 0px auto;
@@ -16,7 +23,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
       height: 44px;
 }
 
@@ -99,6 +108,8 @@ p {
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-transition: 1s ease all;
+    -o-transition: 1s ease all;
     transition: 1s ease all;
 }
 
@@ -149,11 +160,16 @@ p {
 }
 
 .slick-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
         opacity: 1;
     width: 1200px;
-    transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
 }
 
 .slick-item.slick-center {
@@ -165,9 +181,15 @@ p {
 }
 
 .slick-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .slick-dots li {
@@ -188,6 +210,8 @@ p {
 }
 
 .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -214,7 +238,9 @@ p {
     margin-left: 0px;
 }
 .arrow-left-2 {
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 
 
@@ -229,11 +255,16 @@ p {
 
 .slick-slide img {
         opacity: 1;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
     transition: opacity 1s;
     border-radius: 10px;
-    box-shadow: -5px 7px 5px #888888;
+    -webkit-box-shadow: -5px 7px 5px #888888;
+            box-shadow: -5px 7px 5px #888888;
     width: 1236px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 #footer {
@@ -270,7 +301,7 @@ h2 {
   margin-bottom: 50px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 550px){
     .slider{
         max-width: 500px;
         height: auto;
@@ -279,16 +310,21 @@ h2 {
     
     .slick-slide img {
               opacity: 1;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
     transition: opacity 1s;
     border-radius: 10px;
-    box-shadow: -5px 7px 5px #888888;
-    align-items: center;
+    -webkit-box-shadow: -5px 7px 5px #888888;
+            box-shadow: -5px 7px 5px #888888;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
       width: 400px;
     }
 
 
     .wrapper {
-      width: 500px;
+      width: 550px;
     }
 
     .cards-row {
@@ -307,7 +343,7 @@ h2 {
     }
 
     #Cap {
-      width: 500px;
+      width: 550px;
       height: 600px;
     }
 
@@ -316,9 +352,8 @@ h2 {
     }
 
     h4 {
-      width: 153px;
       font-size: 16px;
-      margin-top: 0px;
+      margin-top: 8px;
       margin-left: 20px;
     }
 
@@ -335,7 +370,7 @@ h2 {
 }
 
 #footer {
-  width: 500px;
+  width: 550px;
 }
 
 .info-text {
