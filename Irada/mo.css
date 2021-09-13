@@ -303,7 +303,7 @@ h2 {
 
 @media (max-width: 550px){
     .slider{
-        max-width: 600px;
+        max-width: auto;
         height: auto;
     }
 
