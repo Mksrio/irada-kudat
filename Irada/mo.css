@@ -326,6 +326,10 @@ h2 {
       margin-left: 50px;
     }
 
+    h2 {
+      width: auto;
+    }
+
     #Name{
       margin-left: 40px;
     }
