@@ -322,6 +322,14 @@ h2 {
       width: 400px;
     }
 
+    #info{
+      margin-left: 50px;
+    }
+
+    #Name{
+      margin-left: 50px;
+    }
+
 
     .wrapper {
       width: 550px;
@@ -379,7 +387,7 @@ h2 {
 }
 
 #video {
-  margin-left: 25px;
+  margin-left: 50px;
 }
 
 }
