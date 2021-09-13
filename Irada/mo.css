@@ -330,6 +330,10 @@ h2 {
     margin-top: 0px;
 }
 
+#phone {
+  width: 550px;
+}
+
 #footer {
   width: 500px;
 }
@@ -337,6 +341,10 @@ h2 {
 .info-text {
   padding-left: 10px;
   padding-right: 0px;
+}
+
+#video {
+  margin-left: 25px;
 }
 
 }
