@@ -302,7 +302,7 @@ h2 {
   margin-bottom: 50px;
 }
 
-@media (max-width: 550px){
+@media only screen and (max-width: 550px){
   * {
     box-sizing: border-box;
   }
