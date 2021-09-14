@@ -316,6 +316,10 @@ h2 {
         max-width: 400px;
         height: auto;
     }
+
+    .slick-track {
+      width: 400px;
+    }
     
     .slick-slide img {
       width: 100%;
