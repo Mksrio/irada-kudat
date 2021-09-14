@@ -302,23 +302,23 @@ h2 {
   margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 550px){
+@media (max-width: 550px){
   * {
     box-sizing: border-box;
   }
 
   .flex {
     display: block;
-  width: 200px;
+  width: 400px;
   }
 
     .slider{
-        max-width: 200px;
+        max-width: 400px;
         height: auto;
     }
 
     #feedback {
-      max-width: 300px;
+      max-width: 400px;
     }
 
     
@@ -349,7 +349,7 @@ h2 {
     }
 
     .wrapper {
-      width: 200px;
+      width: 400px;
     }
 
     #Name {
