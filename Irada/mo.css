@@ -313,8 +313,11 @@ h2 {
   }
 
     .slider{
-        max-width: 400px;
+        width: 400px;
         height: auto;
+    }
+    .wrapper {
+      width: 400px;
     }
 
     .slick-track {
