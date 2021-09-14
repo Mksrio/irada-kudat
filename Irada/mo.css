@@ -309,12 +309,16 @@ h2 {
 
   .flex {
     display: block;
-  width: 300px;
+  width: 200px;
   }
 
     .slider{
-        max-width: 300px;
+        max-width: 200px;
         height: auto;
+    }
+
+    #feedback {
+      max-width: 300px;
     }
 
     
@@ -345,7 +349,7 @@ h2 {
     }
 
     .wrapper {
-      width: 300px;
+      width: 200px;
     }
 
     #Name {
