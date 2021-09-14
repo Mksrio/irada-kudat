@@ -302,7 +302,7 @@ h2 {
   margin-bottom: 50px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 550px){
   * {
     box-sizing: border-box;
   }
@@ -335,14 +335,13 @@ h2 {
       margin-left: 30px;
     }
 
+    .info-text {
+      padding: 0px;
+    }
+
     h2 {
       width: auto;
     }
-
-    #Name{
-      margin-left: 40px;
-    }
-
 
     .wrapper {
       width: 100%;
@@ -409,6 +408,10 @@ h2 {
         #info {
           max-width: 100%;
         }
+        
+    .info-text {
+      padding: 0px;
+    }
 
           .flex {
     display: block;
@@ -446,6 +449,11 @@ h2 {
           max-width: 100%;
         }
 
+        
+    .info-text {
+      padding: 0px;
+    }
+    
             .slider{
         width: 500px;
         height: auto;
@@ -453,6 +461,11 @@ h2 {
 
       .flex {
     display: block;
+    width: 500px;
+  }
+
+  .wrapper {
+    width: 500px;
   }
 
             .slick-slide img {
@@ -491,13 +504,23 @@ h4 {
           max-width: 100%;
         }
 
+        
+    .info-text {
+      padding: 0px;
+    }
+
             .slider{
         max-width: 100%;
         height: auto;
     }
 
-      .flex {
+     .flex {
     display: block;
+    width: 500px;
+  }
+
+  .wrapper {
+    width: 500px;
   }
 
             .slick-slide img {
@@ -528,13 +551,23 @@ h4 {
           max-width: 100%;
         }
 
+        
+    .info-text {
+      padding: 0px;
+    }
+
             .slider{
         max-width: 100%;
         height: auto;
     }
 
-      .flex {
+         .flex {
     display: block;
+    width: 500px;
+  }
+
+  .wrapper {
+    width: 500px;
   }
 
             .slick-slide img {
@@ -563,6 +596,10 @@ h4 {
         #info{
           max-width: 100%;
         }
+        
+    .info-text {
+      padding: 0px;
+    }
 
             .slider{
         max-width: 100%;
