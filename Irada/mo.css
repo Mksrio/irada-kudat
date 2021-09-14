@@ -312,7 +312,7 @@ h2 {
   }
 
     .slider{
-        max-width: 100%;
+        width: 400px;
         height: auto;
     }
 
@@ -361,7 +361,7 @@ h2 {
     }
 
     #Cap {
-      width: 100%;
+      width: 550px;
       height: 600px;
     }
 
@@ -384,11 +384,11 @@ h2 {
 }
 
 #phone {
-  width: 100%;
+  width: 550px;
 }
 
 #footer {
-  width: 100%;
+  width: 550px;
 }
 
 #video {
