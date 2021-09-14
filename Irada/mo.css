@@ -411,6 +411,7 @@ h2 {
         
     .info-text {
       padding: 0px;
+      font-size: 30px;
     }
 
           .flex {
@@ -452,6 +453,7 @@ h2 {
         
     .info-text {
       padding: 0px;
+      font-size: 30px;
     }
     
             .slider{
@@ -510,17 +512,17 @@ h4 {
     }
 
             .slider{
-        max-width: 100%;
+        width: 600px;
         height: auto;
     }
 
      .flex {
     display: block;
-    width: 500px;
+    width: 600px;
   }
 
   .wrapper {
-    width: 500px;
+    width: 600px;
   }
 
             .slick-slide img {
@@ -557,17 +559,17 @@ h4 {
     }
 
             .slider{
-        max-width: 100%;
+        width: 800px;
         height: auto;
     }
 
          .flex {
     display: block;
-    width: 500px;
+    width: 800px;
   }
 
   .wrapper {
-    width: 500px;
+    width: 800px;
   }
 
             .slick-slide img {
@@ -602,9 +604,18 @@ h4 {
     }
 
             .slider{
-        max-width: 100%;
+        width: 1100px;
         height: auto;
     }
+
+             .flex {
+    display: block;
+    width: 1100px;
+  }
+
+  .wrapper {
+    width: 1100px;
+  }
             .slick-slide img {
           width: 100%;
         }
