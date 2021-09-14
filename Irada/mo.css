@@ -309,6 +309,7 @@ h2 {
 
   .flex {
     display: block;
+  width: 400px;
   }
 
     .slider{
