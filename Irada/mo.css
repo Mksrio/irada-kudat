@@ -399,7 +399,7 @@ h2 {
 
 @media only screen and (max-width: 600px) { 
       #Cap {
-      max-width: 100%;
+      max-width: 600px;
       height: 600px;
     }
 
@@ -421,20 +421,29 @@ h2 {
   }
 
             .slider {
-        max-width: 100%;
+        width: 500px; 
         height: auto;
     }
+
+          .flex {
+    display: block;
+    width: 500px;
+  }
+
+  .wrapper {
+    width: 500px;
+  }
 
         .slick-slide img {
           width: 100%;
         }
 
   #phone {
-  max-width: 100%;
+  max-width: 600px;
 }
 
 #footer {
-  max-width: 100%;
+  max-width: 600px;
 }
    }
 
