@@ -309,11 +309,11 @@ h2 {
 
   .flex {
     display: block;
-  width: 100%;
+  width: 300px;
   }
 
     .slider{
-        max-width: 400px;
+        max-width: 300px;
         height: auto;
     }
 
@@ -345,7 +345,7 @@ h2 {
     }
 
     .wrapper {
-      width: 100%;
+      width: 300px;
     }
 
     #Name {
