@@ -347,19 +347,21 @@ h2 {
       width: 100%;
     }
 
+    #Name {
+      margin-left: 0px;
+    }
+
     .cards-row {
       display: block;
-      margin-left: 5px;
       width: 500px;
     }
 
     .card {
       width: 450px;
-      margin-left: 15px;
     }
 
     #Cap {
-      width: 100%;
+      width: 550px;
       height: 600px;
     }
 
@@ -382,11 +384,11 @@ h2 {
 }
 
 #phone {
-  width: 100%;
+  width: 550px;
 }
 
 #footer {
-  max-width: 100%;
+  max-width: 550px;
 }
 
 #video {
