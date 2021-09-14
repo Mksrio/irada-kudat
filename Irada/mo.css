@@ -309,11 +309,11 @@ h2 {
 
   .flex {
     display: block;
-  width: 400px;
+  width: 100%;
   }
 
     .slider{
-        width: 400px;
+        width: 100%;
         height: auto;
     }
 
@@ -345,7 +345,7 @@ h2 {
     }
 
     .wrapper {
-      width: 400px;
+      width: 100%;
     }
 
     #Name {
@@ -362,7 +362,7 @@ h2 {
     }
 
     #Cap {
-      width: 550px;
+      width: 100%;
       height: 600px;
     }
 
@@ -385,11 +385,11 @@ h2 {
 }
 
 #phone {
-  width: 550px;
+  width: 100%;
 }
 
 #footer {
-  width: 550px;
+  width: 100%;
 }
 
 #video {
