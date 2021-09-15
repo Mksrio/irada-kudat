@@ -392,7 +392,7 @@ h2 {
 
 @media only screen and (max-width: 600px) { 
       #Cap {
-      width: 600px;
+      max-width: 700px;
       height: 600px;
     }
 
@@ -432,11 +432,11 @@ h2 {
         }
 
   #phone {
-  width: 600px;
+  max-width: 700px;
 }
 
 #footer {
-  width: 600px;
+  max-width: 700px;
 }
    }
 
