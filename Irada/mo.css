@@ -309,19 +309,19 @@ h2 {
 
   .flex {
     display: block;
-  width: 400px;
+  width: 300px;
   }
 
     .slider{
-        width: 400px;
+        width: 300px;
         height: auto;
     }
     .wrapper {
-      width: 400px;
+      width: 300px;
     }
 
     .slick-track {
-      width: 400px;
+      width: 300px;
     }
     
     .slick-slide img {
