@@ -354,7 +354,7 @@ h2 {
     }
 
     #Cap {
-      width: 700px;
+      max-width: 700px;
       height: 600px;
     }
 
@@ -377,11 +377,11 @@ h2 {
 }
 
 #phone {
-  width:  700px;
+  max-width:  700px;
 }
 
 #footer {
-  width: 700px;
+  max-width: 700px;
 }
 
 #video {
@@ -392,7 +392,7 @@ h2 {
 
 @media only screen and (max-width: 600px) { 
       #Cap {
-      max-width: 100%;
+      max-width: 600px;
       height: 600px;
     }
 
@@ -432,11 +432,11 @@ h2 {
         }
 
   #phone {
-  max-width: 100%;
+  max-width: 600px;
 }
 
 #footer {
-  width: 100%;
+  width: 600px;
 }
    }
 
