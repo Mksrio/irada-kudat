@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+
 body {
     background-color: #f4a460;
         margin: 0px auto;
@@ -213,7 +214,9 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .flex__column {
@@ -304,7 +307,8 @@ h2 {
 
 @media (max-width: 550px){
   * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 
   .flex {
@@ -329,7 +333,7 @@ h2 {
     }
 
     #info{
-      margin-left: 30px;
+      margin-left: 50px;
     }
 
     .info-text {
@@ -341,7 +345,7 @@ h2 {
     }
 
     #Name {
-      margin-left: 0px;
+      margin-left: 50px;
     }
 
     .cards-row {
@@ -385,7 +389,7 @@ h2 {
 }
 
 #video {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 }
